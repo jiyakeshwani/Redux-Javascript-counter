@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(215, 178, 250);
+}
+h1 , h2{
+    text-align: center;
+    color: darkblue;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.row{
+    flex-direction: row;
+}
+button{
+    background-color: darkblue;
+    color: white;
+    border: 0;
+    padding: 0.7rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.extensions{
+    display: flex;
+}
+.steps , .max{
+    margin-left: 2.5rem;
+    margin-bottom: 3rem;
+    margin-right: 2.5rem;
+}
+p{
+    color: black;
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-align: center;
+}
